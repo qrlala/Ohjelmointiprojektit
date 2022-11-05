@@ -1,0 +1,42 @@
+.screen{
+    display: flex;
+    padding: 30px;
+}
+
+.Window{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 10px;
+  height: 650px;
+  overflow: auto;
+}
+
+.hidden{
+  display:none;
+}
+.action{
+  padding: 10px;
+  height: 200px;
+  width: 140px;
+}
+.romantic{
+  padding: 10px;
+  height: 200px;
+  width: 140px;
+}
+
+.comedy{
+  padding: 10px;
+  height: 200px;
+  width: 140px;
+}
+.drama{
+  padding: 10px;
+  height: 200px;
+  width: 140px;
+}
+.horror{
+  padding: 10px;
+  height: 200px;
+  width: 140px;
+}
